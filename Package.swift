@@ -12,6 +12,7 @@ let package = Package(
             targets: ["spm-test"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/realm/SwiftLint.git", from: "0.45.1"),
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
